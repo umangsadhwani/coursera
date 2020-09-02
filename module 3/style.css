@@ -67,8 +67,11 @@ font-family: Comic Sans MS;
 }
 
 
-@media(min-width: 992px){
+@media(min-width: 450px){
   .navlinks{
+    visibility: hidden;
+  }
+  .drop{
     visibility: hidden;
   }
 }
