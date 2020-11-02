@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+	<title>project 2</title>
+	<style type="text/css">
+		body{
+			background-color: white;
+		}
+		#div1{
+			background-color: black;
+			height: 60px;
+		}
+		#div2{
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+		nav{
+			width:100%;
+			height: 60px;
+			background-color: grey;
+	 		color:white;
+	 		
+	 		
+
+	 		
+		}
+		nav ul li{
+			display: inline-block;
+	 		background-color: #915044;
+	 		line-height: 30px;
+	 		margin-top: 15px;
+	 		margin-right: 7px;
+	 		padding-right: 8px;
+	 		padding-left: 8px;
+	 	}
+	 	nav ul{
+	 		margin-left: 290px;
+	 	}
+	 	#active{
+	 		background-color: #D7988D;
+	 		color: white;
+	 	}	
+	 	#div3{
+	 		background-color:pink ;
+	 		padding:10px; 
+	 		margin-top: 20px;
+	 		margin-bottom: 10px;
+	 		height:200px;
+	 	}
+	 	.row:after{
+	 		content: "";
+	 		display: table;
+	 		clear: both;
+	 	}
+	 	.row{
+	 		margin-top:2px; 
+	 	}
+	 	.column{
+	 		float: left;
+	 	}
+	 	.d1{
+	 		width: 30%;
+	 	}
+	 	.d2{
+	 		width: 70%;
+	 	}
+	 	h2{
+	 		margin-left: 20px;
+	 	}
+	 	h4{
+	 		margin-left: 20px;
+	 		color: hotpink;
+	 		margin-bottom: 0px;
+	 	}
+	 	h5{
+	 		margin-left: 20px;
+	 		margin-top: 0px;
+	 	}
+	 	p{
+	 		margin-left: 20px;
+	 	}
+	 	.box{
+	 		border:1px solid;
+	 		margin-bottom: 8px;
+	 		border-radius: 10px;
+	 	}
+	 	a{
+	 		color:hotpink;
+	 	}
+	 	u{
+	 		color: hotpink;
+	 	}
+	 	b{
+	 		color: hotpink;
+	 	}
+	 	#ph2{
+	 		color: hotpink;
+	 	}
+	 	#navbar{
+	 		color:white;
+	 	}
+	 	input{
+	 		margin-left: 20px;
+	 	}
+	 	ul{
+	 		 list-style: none;
+	 	}
+	 	.links::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: blue; /* Change the color */
+  font-weight: 900; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+	 		 	
+	</style>
+	</head>
+	<body>
+		<div id="div1">
+			<div id="div2">
+				<nav>
+					<ul>
+						<b id="navbar">
+							<li id="active">HOME </li>
+					        <li>EXAMPLES</li>
+					        <li>A PAGE</li>
+					        <li>ANOTHER PAGE</li>
+					       <li>CONTACT US</li>
+				        </b>
+			       </ul>
+		        </nav>
+		        <div id="div3">
+		        	<img src="https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__340.jpg" width="880px" height="100%">
+		       </div>
+		       <div class="row">
+		       	<div class="column d1">
+		       		<div class="box">
+		       		<h2>Latest News</h2>
+				<h4>NEW WEBSITE LAUNCHED</h4>
+				<h5>August 1st ,2020</h5>
+				<p>2020 sees the redesign of our website .Take a look around and let us know what you think.<br><u>Read More</u></p>
+				</div>
+				<div class="box">
+				<h2>Useful Links</h2>
+				<ul>
+				<li class="links"><a href="#">link 1</a></li>
+				<li class="links"><a href="#">link 2</a></li>
+				<li class="links"><a href="#">link 3</a></li>
+				<li class="links"><a href="#">link 4</a></li>
+
+			</div>
+			<div class="box">
+
+				<h2>Search</h2>
+				<input type="text" name="Enter keywords" placeholder="Enter keywords.....">
+				<span>&#128270;</span>
+				<br>
+				<br>
+			</div>
+		       	</div>
+		       	<div class="column d2">
+		       		<h2>Welcome to simplestyle_horizon template</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget faucibus ligula, nec ultrices nisl. Ut eget nunc tortor.<u> Aliquam congue orci scelerisque risus egestas</u>, a consectetur augue rhoncus. Quisque ut arcu tellus. Aenean condimentum, felis ut semper semper, nisl eros venenatis libero, nec mattis magna orci et tortor. 
+				<p>
+					Suspendisse potenti. Donec tristique nulla neque, eu ornare erat <b>suscipit vitae</b>. Donec diam dolor, dignissim eget <b>enim</b>.
+				</p>
+				<p>
+					Phasellus gravida lobortis augue vitae euismod,<u> In id commodo nunc</u>.
+				</p>
+				<p>
+					Vestibulum ex nibh, dictum in iaculis in, iaculis a lacus. Nullam eget ante ultrices, tincidunt neque vitae, congue purus. 
+				</p>
+				
+				<h2 id="ph2">Browser Compatibility</h2>
+				<p>This template has been tested in the following browsers:</p>
+				<ul>
+					<li class="links">Internet Explorer 9</li>
+					<li class="links">FireFox 25</li>
+					<li class="links">Google Chrome 31</li>
+				</ul>
+		       	</div>
+		       </div>
+
+			</div>
+		</div>
+	</body>
+</html>
